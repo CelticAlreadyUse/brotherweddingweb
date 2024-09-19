@@ -9,7 +9,6 @@
   /* Opening Animation Start*/
 
   .open-right{
-    position: relative;
     opacity: 1;
     transform: translateZ(0);
     transition:ease-out;
@@ -31,7 +30,6 @@
   }
   .open-left{
     left: 0;
-    position: relative;
     transition: ease-out ;
     animation:    open-left-animation forwards 2s;
     -webkit-animation:    open-left-animation forwards 2s;

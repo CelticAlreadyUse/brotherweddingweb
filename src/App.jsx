@@ -34,7 +34,7 @@ const [isDesktop, setIsDesktop] = useState(false);
         <h1 className="text-3xl font-semibold text-white ">Please open with mobile devices</h1>
         </div>}
       {isDesktop && 
-      <div className="bg-[#23532e]">
+      <div className="bg-[#23532e] relative">
       <div className="fixed open-right top-0 bottom-0 left-0   z-20  bg-white">
       </div>
       <div className="fixed open-left grid text-center place-content-center  w-screen z-10 h-svh bg-white">

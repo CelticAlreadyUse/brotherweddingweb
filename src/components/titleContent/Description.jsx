@@ -11,10 +11,9 @@ const Description = () => {
             mempersatukan putra-putri kami dalam Pernikahan Kudus"
           </p>
         </div>
-        <div className="mt-20 grid mx-auto place-items-center">
+        <div className="mt-20 relative grid mx-auto place-items-center">
           <img
-            className=" object-cover w-svw -mt-10 h-28 "
-            data-aos="fade-up"
+            className="object-cover w-svw min-h-16 max-h-fit -mt-10 "
             src={"/assets/3.svg"}
           ></img>
           <p className="text-description tracking-wider text-center">
