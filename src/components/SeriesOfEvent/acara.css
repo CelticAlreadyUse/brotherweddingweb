@@ -1,0 +1,12 @@
+.chruch-background{
+    background-image: url("/assets/IMG_6306.JPG");
+    background-size: cover;
+    height:345px;
+    background-position: center;
+    mix-blend-mode: normal;
+    filter: brightness(50%);
+    filter: blur(1px);
+    -webkit-filter: brightness(50%);
+}
+
+
