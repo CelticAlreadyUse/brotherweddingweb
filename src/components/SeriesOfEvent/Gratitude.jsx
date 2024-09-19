@@ -1,5 +1,5 @@
 import React from "react";
-import "./Acara.css";
+import "./acara.css";
 import { isAndroid, isIOS } from 'react-device-detect';
 import { FaCalendarDay, FaClock, FaMapMarkerAlt } from "react-icons/fa";
 import ChurchIcons from "/assets/churchIcons.png";
