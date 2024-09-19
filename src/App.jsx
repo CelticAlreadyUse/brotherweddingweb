@@ -8,6 +8,7 @@ import AOS from 'aos'
 import "aos/dist/aos.css"
 import { isAndroid } from "react-device-detect";
 function App() {
+  console.log('tes 3')
 const [isMobile, setIsMobile] = useState(false);
 const [isDesktop, setIsDesktop] = useState(false);
   useEffect(()=>{

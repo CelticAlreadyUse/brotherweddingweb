@@ -9,20 +9,15 @@
   /* Opening Animation Start*/
 
   .open-right{
+    position: relative;
     opacity: 1;
     transform: translateZ(0);
     transition:ease-out;
     animation: open-right-animation   forwards 2s;
     -webkit-animation: open-right-animation   forwards 2s;
     -webkit-transition:ease-out;
-    -moz-transition:ease-out;
-    -ms-transition:ease-out;
-    -o-transition:ease-out;
     right: 0;
     -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
 }
 
   @keyframes open-right-animation {
@@ -36,13 +31,11 @@
   }
   .open-left{
     left: 0;
+    position: relative;
     transition: ease-out ;
     animation:    open-left-animation forwards 2s;
     -webkit-animation:    open-left-animation forwards 2s;
     -webkit-transition: ease-out ;
-    -moz-transition: ease-out ;
-    -ms-transition: ease-out ;
-    -o-transition: ease-out ;
 }
 
 @keyframes open-left-animation {
