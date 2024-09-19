@@ -26,9 +26,6 @@
 }
 
   @keyframes open-right-animation {
-    0%{
-    }
-
     50%{
       right: 50%;
       
@@ -39,7 +36,6 @@
   }
   .open-left{
     left: 0;
-    transform: translateZ(0);
     transition: ease-out ;
     animation:    open-left-animation forwards 2s;
     -webkit-animation:    open-left-animation forwards 2s;
@@ -50,9 +46,6 @@
 }
 
 @keyframes open-left-animation {
-  0%{
-  }
-
   50%{
     left: 50%;
     
