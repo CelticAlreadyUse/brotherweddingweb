@@ -28,11 +28,11 @@ const [isDesktop, setIsDesktop] = useState(false);
 
   return (
     <div>
-      {isDesktop && 
+      {isAndroid && 
       <div className="flex h-svh w-svw bg-gray-500 items-center justify-center">
         <h1 className="text-3xl font-semibold text-white ">Please open with mobile devices</h1>
         </div>}
-      {isAndroid && 
+      {isDesktop && 
       <div className="bg-[#23532e]">
       <div className="fixed open-right top-0 bottom-0 left-0   z-20  bg-white">
       </div>
