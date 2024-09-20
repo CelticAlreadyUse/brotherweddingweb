@@ -2,8 +2,8 @@ import React from 'react'
 import './content.css'
 const Content = () => {
   return (
-    <section className='background-image-bride h-screen w-screen '>
-    <main className='ml-4 box-main w-fit h-full place-content-end'>
+    <section className='background-image-bride relative h-screen w-screen '>
+    <main className='ml-4 absolute box-main w-fit h-full place-content-end bottom-0'>
         <div className='rectangle1 mb-[-10px] ml-[-10px]'>
         <h1 className="wedding-of-title ">Wedding of</h1>
         </div>

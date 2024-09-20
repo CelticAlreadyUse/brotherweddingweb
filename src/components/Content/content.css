@@ -51,6 +51,7 @@
   background-size: cover;
   filter: brightness(70%);
   width: 100%;
-  background-position: center;
+  height: 80svh;
+  background-position: center top;
   -webkit-filter: brightness(70%);
 }

@@ -43,9 +43,9 @@ function App() {
       )} */}
 
         <div className="bg-[#23532e]  ">
-          <div className="fixed open-right top-0 bottom-0 left-0   z-20  bg-white"></div>
-          <div className="fixed open-left grid text-center place-content-center  w-screen z-10 h-svh bg-white"></div>
-          <div>
+          <div className="fixed open-right top-0 bottom-0 left-0  z-20  bg-white"></div>
+          <div className="fixed open-left  top-0 bottom-0 right-0 z-20 bg-white"></div>
+          <div className="relative">
             <Heading />
           </div>
           <div data-aos="fade-up">
