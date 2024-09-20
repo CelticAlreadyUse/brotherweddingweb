@@ -19,9 +19,9 @@ function App() {
     const userAgent = navigator.userAgent;
 
     if (/android|iphone|ipad|ipod/i.test(userAgent)) {
-      setIsMobile(false);
+      setIsMobile(true);
     } else {
-      setIsDesktop(false);
+      setIsDesktop(true);
     }
   }, []);
   return (
