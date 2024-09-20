@@ -32,7 +32,7 @@ function App() {
         <div className="flex h-svh w-svw bg-gray-500 items-center justify-center">
           <h1 className="text-3xl font-semibold text-white ">
             Please open with mobile devices
-          </h1>
+          </h1>   
         </div>
       )}
       {isAndroid && (

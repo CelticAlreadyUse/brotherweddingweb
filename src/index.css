@@ -19,7 +19,22 @@
     -webkit-transform: translateZ(0);
 }
 
+  @-webkit-keyframes open-right-animation{
+    0%{
+      right: 0%;
+    }
+    50%{
+      right: 50%;
+      
+    }
+    100%{
+      right: 100%;
+    }
+  }
   @keyframes open-right-animation {
+    0%{
+      right: 0%;
+    }
     50%{
       right: 50%;
       
@@ -35,8 +50,22 @@
     -webkit-animation:    open-left-animation forwards 2s;
     -webkit-transition: ease-out ;
 }
-
+@-webkit-keyframes open-left-animation{
+  0%{
+    left: 0%;
+    }
+  50%{
+    left: 50%;
+    
+  }
+  100%{
+    left: 100%;
+  }
+}
 @keyframes open-left-animation {
+  0%{
+    left: 0%;
+    }
   50%{
     left: 50%;
     
