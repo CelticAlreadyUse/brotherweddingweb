@@ -10,6 +10,7 @@
 
   .open-right{
     opacity: 0;
+    opacity: 0;
     transition:ease-out;
     animation: open-right-animation   forwards 2s;
     -webkit-animation: open-right-animation   forwards 2s;
@@ -33,6 +34,7 @@
   @keyframes open-right-animation {
     0%{
       right: 0%;
+      opacity: 1;
     }
     50%{
       right: 50%;
@@ -66,6 +68,7 @@
 @keyframes open-left-animation {
   0%{
     left: 0%;
+    opacity: 1;
     }
   50%{
     left: 50%;
