@@ -33,7 +33,7 @@ function App() {
           </h1>   
         </div>
       )}
-
+      {isMobile && (
         <div className="bg-[#23532e]  ">
           <div className="fixed open-right top-0 bottom-0 left-0  z-20  bg-white"></div>
           <div className="fixed open-left  top-0 bottom-0 right-0 z-20 bg-white"></div>
@@ -51,6 +51,7 @@ function App() {
           </section>
           <SeriesOfEvent />
         </div>
+        )}
     </div>
   );
 }
