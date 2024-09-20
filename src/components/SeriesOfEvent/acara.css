@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 .chruch-background{
     background-image: url("/assets/IMG_6306.JPG");
     background-size: cover;
@@ -7,6 +8,11 @@
     filter: brightness(50%);
     filter: blur(1px);
     -webkit-filter: brightness(50%);
+}
+.text-reception{
+    font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 

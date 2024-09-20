@@ -3,7 +3,7 @@ import "./pengantin.css";
 import TitleBox from "../TitleBox";
 const Pria = () => {
   return (
-    <div className="">
+    <div>
       <div className="relative grid place-content-center mt-10">
         <div className="mb-2">
           <TitleBox text={"Pengantin Pria"} />
@@ -15,7 +15,7 @@ const Pria = () => {
           <div className="bg-[#C89860]   h-8 place-content-center absolute bottom-0 right-0  rounded-l-[23px] px-9">
             <h1
               data-aos="fade-left"
-              className="text-white text-center font-bold text-lg baskervville-bold-title  "
+              className="text-white w-fit font-bold  baskervville-bold-title  "
             >
               Florentinus Yuda Hendri Susanto
             </h1>
@@ -37,7 +37,7 @@ const Pria = () => {
           Putra Pertama dari <br></br>
           Bapak Subiyanto & Ibu Yuliana Kargiyati
         </p>
-        <div className="absolute rotate-[20deg] mt-10 -left-8 -bottom-4 ">
+        <div className="absolute rotate-[15deg] mt-10 -left-16 -bottom-9 ">
           <img
             className="w-[13.5rem]  "
             data-aos="zoom-in-down "

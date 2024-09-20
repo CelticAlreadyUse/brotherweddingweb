@@ -9,38 +9,30 @@ import { isAndroid } from "react-device-detect";
 import Aos from "aos";
 function App() {
   // console.log("tes 3");
-  // const [isMobile, setIsMobile] = useState(false);
-  // const [isDesktop, setIsDesktop] = useState(false);
-  useEffect(()=>{
+  const [isMobile, setIsMobile] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(false);
+  useEffect(() => {
     Aos.init({
-          duration: 700,
-          easing: "ease-out-cubic",
-        });
-  },)
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 700,
-  //     easing: "ease-out-cubic",
-  //   });
-  //   const userAgent = navigator.userAgent;
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+    const userAgent = navigator.userAgent;
 
-  //   if (/android|iphone|ipad|ipod/i.test(userAgent)) {
-  //     setIsMobile(false);
-  //     console.log("your in mobile");
-  //   } else {
-  //     setIsDesktop(false);
-  //     console.log("your in desktop");
-  //   }
-  // }, []);
+    if (/android|iphone|ipad|ipod/i.test(userAgent)) {
+      setIsMobile(false);
+    } else {
+      setIsDesktop(false);
+    }
+  }, []);
   return (
     <div className="overflow-x-hidden">
-      {/* {isDesktop && (
+      {isDesktop && (
         <div className="flex h-svh w-svw bg-gray-500 items-center justify-center">
           <h1 className="text-3xl font-semibold text-white ">
             Please open with mobile devices
           </h1>   
         </div>
-      )} */}
+      )}
 
         <div className="bg-[#23532e]  ">
           <div className="fixed open-right top-0 bottom-0 left-0  z-20  bg-white"></div>

@@ -17,7 +17,7 @@ const Gratitude = () => {
     };
   return (
     <div className="relative ">
-      <p className="text-center text-white mb-4">
+      <p className="text-center text-reception text-white mb-8">
         Pemberkatan Pernikahan <br />&<br />
         Upacara Syukur
       </p>

@@ -6,9 +6,8 @@ import "aos/dist/aos.css"
 const Reception = () => {
   return (
     <div className="relative">
-      <h1  data-aos="fade-up" className="text-center font-bold text-4xl text-white mb-4">
-        Pemberkatan Pernikahan <br />&<br />
-        Upacara Syukur
+      <h1  data-aos="fade-up" className="text-center text-reception font-bold text-4xl text-white mb-4">
+      Resepsi Pernikahan
       </h1>
       <div className="relative">
         <div className="grid  z-10 top-5 right-0 left-0 place-content-center gap-4 text-white">

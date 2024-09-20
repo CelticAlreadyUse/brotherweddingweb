@@ -11,9 +11,9 @@ const Description = () => {
             mempersatukan putra-putri kami dalam Pernikahan Kudus"
           </p>
         </div>
-        <div className="mt-20 relative grid mx-auto place-items-center">
+        <div className="mt-20 h-fit relative grid mx-auto place-items-center">
           <img
-            className="object-cover w-svw min-h-16 max-h-fit -mt-10 "
+            className="w-svw scale-100 scale-x-100 h-64 -mt-28 "
             src={"/assets/3.svg"}
           ></img>
           <p className="text-description tracking-wider text-center">
@@ -23,8 +23,7 @@ const Description = () => {
             Matius 19:6
           </p>
           <img
-            className="w-64 mt-10"
-            data-aos="zoom-in-down"
+            className="w-36 mt-10 h-36 max-w-56 mb-8 max-h-56"
             src={"/assets/Icons1.png"}
           ></img>
         </div>

@@ -33,7 +33,7 @@ const Wanita = () => {
             </div>
     </div>
     <div className='flex justify-end place '>
-    <p data-aos="fade-left" className=' baskervville-regular text-center text-white'>Putri pertama dari  Ibu Suwawi Astuti</p>
+    <p data-aos="fade-left" className=' baskervville-regular text-center mr-2 text-white'>Putri pertama dari  Ibu Suwawi Astuti</p>
     </div>
     </div>
   )

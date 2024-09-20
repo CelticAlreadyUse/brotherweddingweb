@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 .root{
-    position: relative;
     width: 100vw;
-    height: 100vh;
     flex-direction: column;
     align-items: flex-start;
     background-color: #23532e;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .text-description{
     color: #fff;
@@ -15,12 +13,4 @@
     font-weight: 500;
     font-style: normal;
     letter-spacing: -0.03em;}
-
-.text-section{
-        text-align: start;
-        flex-direction: column;
-        align-items: flex-start;
-        overflow: hidden;
-    
-}
 
