@@ -10,7 +10,6 @@
 
   .open-right{
     opacity: 0;
-    opacity: 0;
     transition:ease-out;
     animation: open-right-animation   forwards 2s;
     -webkit-animation: open-right-animation   forwards 2s;
@@ -22,13 +21,15 @@
     0%{
       right: 0%;
       opacity: 1;
+      
     }
     50%{
       right: 50%;
-      
+      opacity: 1;
     }
     100%{
       right: 100%;
+      opacity: 1;
     }
   }
   @keyframes open-right-animation {
@@ -38,10 +39,11 @@
     }
     50%{
       right: 50%;
-      
+      opacity: 1;
     }
     100%{
       right: 100%;
+      opacity: 1;
     }
   }
   .open-left{
@@ -59,10 +61,12 @@
     }
   50%{
     left: 50%;
+    opacity: 1;
     
   }
   100%{
     left: 100%;
+    opacity: 1;
   }
 }
 @keyframes open-left-animation {
@@ -72,10 +76,11 @@
     }
   50%{
     left: 50%;
-    
+    opacity: 1;
   }
   100%{
     left: 100%;
+    opacity: 1;
   }
 }
   /* Opening Animation End*/
