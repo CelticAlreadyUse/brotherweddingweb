@@ -22,10 +22,16 @@ const Description = () => {
             <br />
             Matius 19:6
           </p>
+          <div className="flex w-svw justify-center items-center">
           <img
             className="w-36 mt-10 h-36 max-w-56 mb-8 max-h-56"
-            src={"/assets/Icons1.png"}
-          ></img>
+            src={"/assets/cartoonwanita.png"}
+            ></img>
+          <img
+            className="w-36 mt-10 h-36 max-w-56 mb-8 max-h-56"
+            src={"/assets/cartoonpria.png"}
+            ></img>
+            </div>
         </div>
       </div>
     </section>

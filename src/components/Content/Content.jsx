@@ -5,7 +5,7 @@ const Content = () => {
     <section className='relative h-screen w-screen '>
     <main className='grid  bottom-0  w-svh place-items-center h-full place-content-center'>
     <img
-            className="w-72 mt-10 h-72  mb-8 "
+            className="w-[16rem] mt-10 h-[16rem]  mb-8 "
             src={"/assets/Icons1.png"}
           ></img>
         <div className='rectangle1 '>
