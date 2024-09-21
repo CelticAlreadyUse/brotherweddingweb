@@ -4,13 +4,13 @@ import TitleBox from "../TitleBox";
 const Wanita = () => {
   return (
     <div>
-      <div className="relative grid place-content-center mt-10">
-        <div className="mb-2  grid place-content-center">
+      <div className="relative   grid place-content-center place-items-center ">
           <img src="/assets/kerucut.webp"></img>
+          <div className="mb-3">
           <TitleBox text={"Pengantin wanita"} />
-        </div>
+          </div>
         <img
-          className="w-[50svw] rounded-xl object-cover"
+          className="w-[80%] rounded-xl object-cover"
           src="/assets/astrihd.jpeg"
         ></img>
       </div>
@@ -28,16 +28,6 @@ const Wanita = () => {
           </p>
         </div>
         <div className="absolute rotate-[15deg] mt-10 -left-16 -bottom-9 "></div>
-      </div>
-      <div className=" sticky  pt-20 flex items-center  top-0">
-        <img
-          className="absolute -left-20 top-0 bottom-0 wayang-tegak-anim"
-          src="/assets/wayang-tegak.webp"
-        ></img>
-        <img
-          className="absolute  -right-20 -top-10 bottom-0 wayang-tegak-kanan"
-          src="/assets/wayang-tegak.webp"
-        ></img>
       </div>
     </div>
   );

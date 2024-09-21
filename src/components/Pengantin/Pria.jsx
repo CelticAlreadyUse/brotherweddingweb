@@ -4,14 +4,19 @@ import TitleBox from "../TitleBox";
 const Pria = () => {
   return (
     <div >
+              <div className=" flex h-full border items-center  justify-between">
+      <img className=" w-14 left-0  wayang-tegak-anim" src="/assets/wayang-tegak.webp"></img>
+      <img className="  w-14 right-0  wayang-tegak-kanan" src="/assets/wayang-tegak.webp"></img>
+      </div>
       <div className="relative grid place-content-center place-items-center">
-        <div className="mb-2 relative grid place-content-center place-items-center  w-full">
+        <div className="mb-2 relative grid place-content-center place-items-center  w-full">   
         <img src="/assets/kerucut.webp"></img>
-          <div className="absolute top-[12rem] -left-2">
+         
           <TitleBox text={"Pengantin Pria"} />
-          </div>
+        
         </div>
-        <img className="w-[50svw] rounded-xl object-cover" src="/assets/yudahd.jpeg"></img>
+
+        <img className="w-[80%] rounded-xl object-cover" src="/assets/yudahd.jpeg"></img>
       </div>
       <div className="flex justify-center items-center place relative ">
         <div className="bg-slate-200 absolute p-4 text-center rounded-lg ">
@@ -27,10 +32,7 @@ const Pria = () => {
         <div className="absolute rotate-[15deg] mt-10 -left-16 -bottom-9 ">
         </div>
       </div>
-      <div className=" sticky  pt-20 flex items-center  top-0">
-      <img className="absolute -left-20 top-0 bottom-0 wayang-tegak-anim" src="/assets/wayang-tegak.webp"></img>
-      <img className="absolute  -right-20 -top-10 bottom-0 wayang-tegak-kanan" src="/assets/wayang-tegak.webp"></img>
-      </div>
+    
     </div>
   );
 };

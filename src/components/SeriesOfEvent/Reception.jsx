@@ -5,8 +5,8 @@ import AOS from 'aos'
 import "aos/dist/aos.css"
 const Reception = () => {
   return (
-    <div className="relative">
-      <h1  data-aos="fade-up" className="text-center text-reception font-bold text-4xl text-white mb-4">
+    <div data-aos="fade-up" className="relative">
+      <h1  className="text-center text-reception font-bold text-2xl text-white mb-4">
       Resepsi Pernikahan
       </h1>
       <div className="relative">
