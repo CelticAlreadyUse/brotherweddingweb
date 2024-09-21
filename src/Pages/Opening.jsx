@@ -15,7 +15,7 @@ const Opening = () => {
         <h1>Astri</h1>
         </div>
           <h1 className='text-center text-white text-2xl mt-2'>Kepada Yth;<br></br>Bapak/Ibu/Saudara/i</h1>
-        <Link to={'/home'} data-aos="fade-up" className='w-fit flex gap-5 mt-5 bg-slate-500 px-3 py-2 rounded-md items-center'><strong className='text-white text-2xl'>Open the Invitation</strong><FaEnvelopeOpenText className='text-white' size={32} /> </Link> 
+        <Link to={'/home'}  className='w-fit flex gap-5 mt-5 bg-slate-500 px-3 py-2 rounded-md items-center'><strong className='text-white text-2xl'>Open the Invitation</strong><FaEnvelopeOpenText className='text-white' size={32} /> </Link> 
     </div>
     </>
   )

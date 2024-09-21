@@ -93,7 +93,7 @@
 }
 
 .background-image-border{
-  background-size: cover 80svw;
+  background-size: 80svw;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url('/assets/border.webp');
