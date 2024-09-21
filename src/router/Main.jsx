@@ -13,8 +13,10 @@ const Main = () => {
     },[])
   return (
       <Routes>
+      
         <Route path="/" element={<Opening />}></Route>
         <Route path="/home" element={<App />}></Route>
+
       </Routes>
   );
 };

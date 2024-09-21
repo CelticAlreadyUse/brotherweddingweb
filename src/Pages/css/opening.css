@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 .bg-main{
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url("/assets/bg.webp");
     filter: hue-rotate(75deg) brightness(120%);
     -webkit-filter: hue-rotate(75deg) brightness(120%);
@@ -9,8 +13,8 @@
     background-image: url('/assets/border.webp');
     background-repeat: no-repeat;
     font-family: "Mulish";
+    width: 200%;
     background-size: cover;
-    background-position: center;
 }
 .sofadi-one-regular {
     font-family: "Sofadi One", system-ui;
