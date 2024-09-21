@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+.bg-main{
+    background-image: url("/assets/bg.webp");
+    filter: hue-rotate(120deg) brightness(120%);
+    -webkit-filter: hue-rotate(120deg) brightness(120%);
+}
+.bg-opening{
+    background-image: url('/assets/border.webp');
+    background-repeat: no-repeat;
+    font-family: "Mulish";
+    background-size: cover;
+    background-position: center;
+}
+.sofadi-one-regular {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

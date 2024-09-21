@@ -7,6 +7,7 @@ import SeriesOfEvent from "./components/SeriesOfEvent/SeriesOfEvent.jsx";
 import "aos/dist/aos.css";
 import { isAndroid } from "react-device-detect";
 import Aos from "aos";
+import "./index.css"
 function App() {
   // console.log("tes 3");
   const [isMobile, setIsMobile] = useState(false);
@@ -34,16 +35,20 @@ function App() {
         </div>
       )}
       {isMobile && (
-        <div className="bg-[#23532e]  ">
+        <div className=" relative bg-green-700 ">
+          <section className="bg-green-700">
           <div className="fixed open-right top-0 bottom-0 left-0  z-20  bg-white"></div>
           <div className="fixed open-left  top-0 bottom-0 right-0 z-20 bg-white"></div>
           <div className="relative">
             <Heading />
           </div>
-          <div data-aos="fade-up">
+          <div className="z-30" data-aos="fade-up">
             <TitleContent />
           </div>
-          <section data-aos="fade-up">
+          </section >
+          <section className="relative">
+            <div className="bg-pengantin absolute top-0 bottom-0 w-full z-0 h-ful ">
+            </div>
             <PengantinPria />
             <div className="mt-10">
               <PengantinWanita />

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 .baskervville-bold-title{
 
     font-family: "Baskervville", serif;
@@ -19,4 +19,65 @@
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
+}
+
+.wayang-tegak-anim{
+    top: 0;
+    position: sticky;
+    position:-webkit-sticky ;
+    animation: animationslide 1.8s cubic-bezier(0.87, 0, 0.13, 1) 0.8s infinite alternate-reverse both;
+    -webkit-animation: animationslide 1.8s cubic-bezier(0.87, 0, 0.13, 1) 0.8s infinite alternate-reverse both;
+}
+.wayang-tegak-kanan{
+    top: 0;
+    position: sticky;
+    position:-webkit-sticky ;
+    animation: animationslidekanan 1.8s cubic-bezier(0.87, 0, 0.13, 1) 0.8s infinite alternate-reverse both;
+    -webkit-animation: animationslidekanan 1.8s cubic-bezier(0.87, 0, 0.13, 1) 0.8s infinite alternate-reverse both;
+}
+@keyframes animationslide {
+	0% {
+		transform: rotate(40deg);
+		transform-origin: right;
+		-webkit-transform: rotate(40deg);
+		-moz-transform: rotate(40deg);
+		-ms-transform: rotate(40deg);
+		-o-transform: rotate(40deg);
+}
+
+	100% {
+		transform: rotate(10deg);
+		transform-origin: right;
+		-webkit-transform: rotate(10deg);
+		-moz-transform: rotate(10deg);
+		-ms-transform: rotate(10deg);
+		-o-transform: rotate(10deg);
+}
+}
+@keyframes animationslidekanan {
+	0% {
+		transform: rotate(-40deg);
+		transform-origin: right;
+		-webkit-transform: rotate(-40deg);
+		-moz-transform: rotate(-40deg);
+		-ms-transform: rotate(-40deg);
+		-o-transform: rotate(-40deg);
+}
+
+	100% {
+		transform: rotate(-10deg);
+		transform-origin: right;
+		-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		-ms-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+}
+}
+
+
+.dancing-script-uniquifier {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
