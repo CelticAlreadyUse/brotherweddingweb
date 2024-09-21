@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 .bg-main{
     position: absolute;
-    background-attachment: fixed;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("/assets/bg.webp");
@@ -10,10 +13,12 @@
     -webkit-filter: hue-rotate(75deg) brightness(120%);
 }
 .bg-opening{
+    background-position: center;
     background-image: url('/assets/border.webp');
     background-repeat: no-repeat;
     font-family: "Mulish";
-    width: 200%;
+    width: 120%;
+    height: 100svh;
     background-size: cover;
 }
 .sofadi-one-regular {

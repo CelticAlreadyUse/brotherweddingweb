@@ -15,7 +15,7 @@ function App() {
     });
   }, []);
   return (
-    <div className="grid bg-slate-500 place-content-center place-items-center">
+    <div className="grid overflow-x-hidden bg-slate-500 place-content-center place-items-center">
         <div className=" max-w-[375px]  bg-green-800 ">
           <section className="bg-green-800">
           <div className="fixed open-right top-0 bottom-0 left-0  z-20  bg-white"></div>
