@@ -35,8 +35,8 @@ function App() {
         </div>
       )}
       {isMobile && (
-        <div className=" relative bg-green-700 ">
-          <section className="bg-green-700">
+        <div className=" relative bg-green-800 ">
+          <section className="bg-green-800">
           <div className="fixed open-right top-0 bottom-0 left-0  z-20  bg-white"></div>
           <div className="fixed open-left  top-0 bottom-0 right-0 z-20 bg-white"></div>
           <div className="relative">
